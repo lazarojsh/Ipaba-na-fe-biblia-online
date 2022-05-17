@@ -9,3 +9,10 @@ nav {
     color: white;
     text-align: center;
 }
+img {
+    width: 300pt;
+    height: 205pt;
+}
+div#img{
+    text-align: center;
+}
