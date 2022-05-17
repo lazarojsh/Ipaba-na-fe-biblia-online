@@ -1,10 +1,12 @@
 body {
     background: whitesmoke;
+    height: auto;
+    width: auto;
 }
 nav {
     background: blue;
     height: 30px;
-    font: normal 15pt Arial;
+    font: normal 16pt Arial;
     color: white;
     text-align: center;
 }
