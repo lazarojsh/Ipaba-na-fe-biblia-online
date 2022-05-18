@@ -3,6 +3,9 @@ body {
     height: auto;
     width: auto;
 }
+div {
+    text-align: justify
+}
 nav {
     background: blue;
     font: normal 16pt Arial;
@@ -13,10 +16,5 @@ img {
     width: 300px;
     height: 240px;
 }
-div#livrodegenesis {
-    text-align: justify;
-}
-/*div#img{
-    text-align: justify;
-    
-}*/
+
+
