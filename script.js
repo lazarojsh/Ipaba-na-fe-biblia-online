@@ -7,10 +7,3 @@ function buscar() {
         alert('Busca disponível em breve!')
     }
 }
-function horasdiv() {
-    let horasdiv= document.getElementById('horas')
-    let relogio= new Date()
-    let hora= relogio.getHours()
-    if {
-    horasdiv = `${hora}`}
-}
