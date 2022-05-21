@@ -1,27 +1,33 @@
 body {
-    background: silver;
-    height: auto;
-    width: auto;
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-div {
-    text-align: justify
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*joga um para o lado, e o outro, para o outro lado*/
+    background-color: blue;
+    padding: 1em; /*para não ficar encostado nas margens*/
 }
-nav {
-    background: blue;
-    font: normal 16pt Arial;
-    color: white;
-    text-align: center;
+form {
+    border: 1px solid whitesmoke;
+    border-radius: 0.3em;
+    padding: 0.3em;
 }
-img {
-    width: 300px;
-    height: 240px;
+form input, form button {
+font-size: 1.2em;
+border-radius: 0.2em;
+border: none;
+padding: 0.2em;
+cursor: pointer;
+background:white ; /*cor de fundo do botão input search*/
+color: black; /*Cor da letra do botão buscar*/
+}
+img#fotoipaba {
+    width: 500px;
+    height: 305px;
 }
 img#fotopng {
-    width: 55px;
-    height: 50px;
+width: 100px;
+height: 100px;
 }
-img#tiktokpng {
-    width: 55px;
-    height: 50px;
-}
-

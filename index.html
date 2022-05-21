@@ -11,19 +11,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
         <div>
-            <nav>
-              <h1>
-                Bíblia Online- Ipaba Na Fé
-                <input type="search" placeholder="Indisponível no momento" name="Buscar" id="Buscar">
+            <header>
+              <h1>Bíblia Online- Ipaba Na Fé</h1>
+                <form>
+                <input type="search" placeholder="Indisponível no momento" name="Buscar" id="Buscar" required>
                 <input type="button" value="Buscar" onclick="buscar()">
-              </h1>  
-            </nav>
+            </form>   
+        </header>
+        </div>
             <div id="res">
                 <h2>Ipaba MG</h2>
                 <!--Foto Da Lagoa Do Ipaba-->
-                <img src="assets/images (42).jpeg" alt="mapa do Brasil">
+                <img id="fotoipaba" src="assets/images (42).jpeg" alt="Lagoa do Brasil">
                 <p><strong>Ipaba</strong> é um município brasileiro no interior do estado de <strong>Minas Gerais</strong>, 
                     Região Sudeste do país.</p> 
                     <p><!--<sup>1</sup>-->Localiza-se no <strong>Vale do Rio Doce</strong> 
@@ -35,7 +35,6 @@
             <h2>Bíblia</h2> <!--Versões de Bíblias-->
             <p><a href="livrosdabiblia.html">Almeida Revista e Atualizada</a></p>
         </div>
-    </section>
     <script src="script.js"></script>
     <footer>
         <h1>Programador:</h1>
