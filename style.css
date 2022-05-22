@@ -5,8 +5,10 @@ body {
     box-shadow: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
-    min-width: 320px;
-    max-width:800px ;
+    /*min-width: 320px;
+    max-width:800px ;*/
+    min-width: 100%;
+    max-width: 100%;
     margin: auto;
 }
 header {
@@ -32,8 +34,8 @@ background:white ; /*cor de fundo do botão input search*/
 color: black; /*Cor da letra do botão buscar*/
 }
 img#fotoipaba {
-    width: 100%;
-    height: 100%;
+    width: 60%;
+    height: 60%;
 }
 img#fotopng {
 width: 100px;
