@@ -36,12 +36,12 @@ img#fotopng {
 width: 100px;
 height: 100px;
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 700px) {
     body {
         background-color: blanchedalmond;
     }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 700px) {
      body, header {
         width:100%;
     }
