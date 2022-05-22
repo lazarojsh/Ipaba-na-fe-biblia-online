@@ -1,15 +1,16 @@
 body {
-    background: url(https://cdn.pixabay.com/photo/2017/08/24/03/41/starry-sky-2675322_960_720.jpg);
+    /*background: url(https://cdn.pixabay.com/photo/2017/08/24/03/41/starry-sky-2675322_960_720.jpg);*/
+    background-color: beige;
     background-attachment: fixed;
     box-shadow: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
 }
 header {
     display: flex;
     align-items: center;
     justify-content: space-between; /*joga um para o lado, e o outro, para o outro lado*/
-    background-color: rgba(0, 0, 0, 0.849);
+    background-color: burlywood;
     padding: 1em; /*para não ficar encostado nas margens*/
 }
 form {
@@ -17,6 +18,7 @@ form {
     border-radius: 0.3em;
     padding: 0.3em;
 }
+    
 form input, form button {
 font-size: 1.2em;
 border-radius: 0.2em;
@@ -27,10 +29,20 @@ background:white ; /*cor de fundo do botão input search*/
 color: black; /*Cor da letra do botão buscar*/
 }
 img#fotoipaba {
-    width: 500px;
-    height: 305px;
+    width: 200px;
+    height: 110px;
 }
 img#fotopng {
 width: 100px;
 height: 100px;
+}
+@media screen and (max-width: 430px) {
+    body {
+        background-color: blanchedalmond;
+    }
+}
+@media screen and (max-width: 430px) {
+     body, header {
+        width:100%;
+    }
 }
