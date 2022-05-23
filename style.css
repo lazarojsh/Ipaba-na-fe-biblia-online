@@ -14,7 +14,7 @@ header {
     align-items: center;
     justify-content: space-between; /*joga um para o lado, e o outro, para o outro lado*/
     background-color: burlywood;
-    padding: 1em; /*para não ficar encostado nas margens*/
+    padding: 0.1em; /*para não ficar encostado nas margens*/
 }
 form {
     border: 1px solid whitesmoke;
