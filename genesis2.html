@@ -11,15 +11,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
-    <header>
-      <h1>Bíblia Online- Ipaba Na Fé</h1>
-        <form>
-        <input type="search" placeholder="Indisponível no momento" name="Buscar" id="Buscar" required>
-        <input type="button" value="Buscar" onclick="buscar()">
-    </form>   
-</header>
+  <div onclick="hor()">
+    <input type="time" name="horas" id="horas" min="00:00" max="23:00" required>
+
 </div>
+    <div>
+        <header>
+          <h1>Bíblia Online- Ipaba Na Fé</h1>
+            <form>
+            <input type="search" placeholder="Indisponível no momento" name="Buscar" id="Busca" required>
+            <input type="button" value="Buscar" onclick="buscar()">
+        </form>   
+    </header>
+    </div>
+    <div id="busc">
+
+    </div>
               <div>
                   <!--Almeida e Revista Atualizada-->
                   <h1>Gênesis 2</h1>
