@@ -1,11 +1,12 @@
 function buscar() {
     let formb= document.querySelector('input#Busca')
     let dbusc= document.querySelector('div#busc')
+    let se= document.querySelector('body#search')
     if(formb.value.length == 0) {
         alert('Busca disponivel em breve!')
     } else {
-        alert('Busca disponivel em breve!')
-        
+        //alert('Busca disponivel em breve!')
+        dbusc.innerHTML= `${se}`
     }
 }
 /*function hor() {
